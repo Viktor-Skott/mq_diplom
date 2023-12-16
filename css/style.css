@@ -1,0 +1,218 @@
+/* =================RESET================== */
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+/* ===============WRAPER================================ */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1e8fff6a;
+  z-index: -2;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+.wraper {
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  margin: 0 122px 0 122px;
+  background-image: url('https://i.postimg.cc/fbHDj92n/Saly-1.png');
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 100% 0px;
+}
+
+
+
+
+/* ===============HEADER================================ */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 83px;
+  border-radius: 12px;
+  background: #FEFEFE;
+  padding: 25px 48px 16px 64px;
+  margin-top: 41px;
+  margin-bottom: 95px;
+}
+
+.header__logo {
+}
+.header__logo-logo {
+  color: #0A2541;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  }
+
+.header__list {
+  display: flex;
+  gap: 60px;
+}
+.header__item {
+
+}
+.header__button {
+  display: flex;
+  gap: 28px;
+}
+.header__button-white {
+  border: 1px solid #7372FF;
+  background: #FFF;
+
+  color: #4443D0;
+  font-size: 16px;
+  font-weight: 700;
+}
+.button {
+  display: block;
+  width: 127px;
+  height: 41px;
+  border-radius: 5px;
+}
+.header__button-blue {
+  background: #7372FF;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main {
+  margin-top: 200px;
+  max-width: 630px;
+  margin: 200px 0 192px 0;
+}
+.main__title {
+  color: #0A2541;
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.span__blue {
+  color: #5352ED;
+}
+.main__subtitle {
+  color: #000;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  color: rgba(0, 0, 0, 0.50);
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 7px;
+  margin-bottom: 8px;
+}
+.form__input {
+  width: 475px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #2A92F9;
+  padding-left: 22px;
+  margin-bottom: 39px;
+}
+.button__form-blue {
+}
+.button__header-blue {
+}
