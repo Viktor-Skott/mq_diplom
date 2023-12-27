@@ -203,25 +203,25 @@ ul li {
 }
 
 .background-trend1 {
-  background-image: url(./img/trend1.jpg);
+  background-image: url(../img/trend1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend2 {
-  background-image: url(./img/trend2.jpg);
+  background-image: url(../img/trend2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend3 {
-  background-image: url(./img/trend3.jpg);
+  background-image: url(../img/trend3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend4 {
-  background-image: url(./img/trend4.jpg);
+  background-image: url(../img/trend4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
