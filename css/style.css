@@ -203,25 +203,25 @@ ul li {
 }
 
 .background-trend1 {
-  background-image: url(/img/trend1.jpg);
+  background-image: url(./img/trend1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend2 {
-  background-image: url(/img/trend2.jpg);
+  background-image: url(./img/trend2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend3 {
-  background-image: url(/img/trend3.jpg);
+  background-image: url(./img/trend3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 .background-trend4 {
-  background-image: url(/img/trend4.jpg);
+  background-image: url(./img/trend4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -575,7 +575,6 @@ ul li {
   background-color: var(--color-orange);
   cursor: pointer;
 }
-
 .shop__btn-text {
   font-size: 14px;
   color: var(--color-main-white);
@@ -588,11 +587,10 @@ ul li {
 .footer-wrapper {
   max-width: 1200px;
 	margin: 0 auto;
-	/* padding: 0 15px; */
 	box-sizing: border-box;
 }
 .address {
-    background-color: lightgrey;
+    background-color: var(--color-lightgrey);
     padding: 30px 0;
 }
 .footer-list {
@@ -603,13 +601,11 @@ ul li {
 .footer-list-item:not(:first-child) {
 	margin-left: 15px;
 }
-
 .footer-list-link {
   display: block;
 	width: 24px;
 	height: 24px;
 }
-
 .footer-copyright {
   margin-top: 30px;
   margin-bottom: 45px;
@@ -620,8 +616,8 @@ ul li {
   color: #999999;
 }
 .copyright-text {
-  font-family: 'OpenSans-Bold', sans-serif;
   font-size: 12px;
+  font-weight: 700;
   color: #999999;
 }
 
@@ -684,7 +680,7 @@ ul li {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(/svg/form-arrows.svg);
+  background-image: url(./svg/form-arrows.svg);
   background-position: center right 10px;
   background-repeat: no-repeat;
   background-size: 14px;
