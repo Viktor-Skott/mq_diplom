@@ -940,9 +940,8 @@ ul li {
   .shop__content-title {
     font-size: 14px;
   }
-  @media (orientation: landscape) {
+  @media  (orientation: landscape) {
     .trends__wrap {
-      width: 100%;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
       gap: 3px;
