@@ -794,7 +794,8 @@ ul li {
   }
   .trends__wrap {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);	
+	  gap: 3px;
   }
   .trends__title {
     font-size: 18px;
@@ -830,13 +831,6 @@ ul li {
   }
   .shop__content-title {
     font-size: 16px;
-  }
-  @media ((min-width: 641px) and (max-width: 1200px)) and  (orientation: landscape) {
-    .trends__wrap {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      gap: 3px;
-    }
   }
 }
 
@@ -939,13 +933,6 @@ ul li {
   }
   .shop__content-title {
     font-size: 14px;
-  }
-  @media (max-width: 640px) and  (orientation: landscape) {
-    .trends__wrap {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      gap: 3px;
-    }
   }
 }
 
