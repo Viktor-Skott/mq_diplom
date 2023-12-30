@@ -471,9 +471,10 @@ ul li {
 .aside__tags {
   display: flex;
   flex-wrap: wrap;
+  font-size: 12px;
+  font-weight: 700;
   gap: 6px;
   color: var(--color-main-dark);
-  font-size: 12px;
 }
 .aside__tags-item {
   box-sizing: border-box;
@@ -495,6 +496,7 @@ ul li {
 }
 .list-name {
   font-size: 14px;
+  font-weight: 700;
 }
 .list-name:hover {
   text-decoration: underline;
@@ -520,6 +522,7 @@ ul li {
   flex-grow: 1;
 }
 .shop__img {
+  display: block;
   width: 100%;
   padding: 0 23px 0 23px;
 }
@@ -567,16 +570,21 @@ ul li {
   text-decoration: line-through;
 }
 .shop__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 48px;
-  min-width: 140px;
+  width: 50%;
   background-color: #e6dfc8;
 }
 .shop__btn:hover {
   background-color: var(--color-orange);
   cursor: pointer;
 }
+
 .shop__btn-text {
   font-size: 14px;
+  font-weight: 700;
   color: var(--color-main-white);
   text-transform: var(--text-uppercase);
 }
@@ -634,9 +642,7 @@ ul li {
 }
 .popup__container {
   display: block;
-  min-width: 330px;
   max-width: 390px;
-  max-height: 590px;
   padding: 50px 30px;
   background-color: #ffffff;
   position: absolute;
@@ -794,8 +800,8 @@ ul li {
   }
   .trends__wrap {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);	
-	  gap: 3px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 3px;
   }
   .trends__title {
     font-size: 18px;
@@ -833,6 +839,7 @@ ul li {
     font-size: 16px;
   }
 }
+
 
 
 /* ===============MEDIA-MOBILE============= */

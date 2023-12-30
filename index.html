@@ -59,7 +59,7 @@
 			<div class="header__menu">
 				<div class="header__menu-logo">
 					<a href="/">
-						<figure><img src="./svg/noemi-logo.svg" alt="logo" class="menu__logo-img"></figure>
+						<figure><img src="../svg/noemi-logo.svg" alt="logo" class="menu__logo-img"></figure>
 					</a>
 				</div>
 				<nav class="header__menu-nav">
@@ -367,9 +367,11 @@
 		<h2 class="shop__title  underline__title">наши изделия</h3>
 			<div class="shop__wrap">
 				<article class="shop__article">
-					<figure class="shop__picture">
+					<picture class="shop__picture">
+						<source class="shop__img" srcset="./img/shop-item-mobile1.jpg" media="(max-width: 641px)">
+						<source class="shop__img" srcset="./img/shop-item-tablet1.jpg" media="(max-width: 1200px)">
 						<img class="shop__img" src="./img/shop-item-desk1.jpg" alt="picture">
-					</figure>
+					</picture>
 					<div class="shop__content">
 						<h3 class="shop__content-title">подушка на диван</h3>
 						<p class="shop__content-text">набор из двух подушек с модными принтами. Видео о создании <a href="/"
@@ -379,17 +381,21 @@
 								<div class="shop__price-item price__item-decoration">1000 р</div>
 								<div class="shop__price-item">800 р</div>
 							</div>
-							<button type="submit" id="shop__btn-1" class="shop__btn">
-								<span class="visually-hidden">Кнопка в магазин</span>
-								<span class="shop__btn-text">В магазин</span>
-							</button>
+							<div class="shop__btn">
+								<a href="#" class="shop__btn-link">
+									<span class="visually-hidden">Кнопка в магазин</span>
+									<span class="shop__btn-text">В магазин</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</article>
 				<article class="shop__article">
-					<figure class="shop__picture">
+					<picture class="shop__picture">
+						<source class="shop__img" srcset="./img/shop-item-mobile2.jpg" media="(max-width: 641px)">
+						<source class="shop__img" srcset="./img/shop-item-tablet2.jpg" media="(max-width: 1200px)">
 						<img class="shop__img" src="./img/shop-item-desk2.jpg" alt="picture">
-					</figure>
+					</picture>
 					<div class="shop__content">
 						<h3 class="shop__content-title">Кукла «Зайчик»</h3>
 						<p class="shop__content-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a
@@ -398,17 +404,21 @@
 							<div class="shop__price">
 								<div class="shop__price-item">3500 р</div>
 							</div>
-							<button type="submit" id="shop__btn-2" class="shop__btn">
-								<span class="visually-hidden">Кнопка в магазин</span>
-								<span class="shop__btn-text">В магазин</span>
-							</button>
+							<div class="shop__btn">
+								<a href="#" class="shop__btn-link">
+									<span class="visually-hidden">Кнопка в магазин</span>
+									<span class="shop__btn-text">В магазин</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</article>
 				<article class="shop__article">
-					<figure class="shop__picture">
+					<picture class="shop__picture">
+						<source class="shop__img" srcset="./img/shop-item-mobile3.jpg" media="(max-width: 641px)">
+						<source class="shop__img" srcset="./img/shop-item-tablet3.jpg" media="(max-width: 1200px)">
 						<img class="shop__img" src="./img/shop-item-desk3.jpg" alt="picture">
-					</figure>
+					</picture>
 					<div class="shop__content">
 						<h3 class="shop__content-title">Шестиугольная рамка</h3>
 						<p class="shop__content-text">Необычная рамка для украшения дома из видео <a class="shop__content-link">«Как
@@ -418,10 +428,12 @@
 								<div class="shop__price-item price__item-decoration">500 р</div>
 								<div class="shop__price-item">400 р</div>
 							</div>
-							<button type="submit" id="shop__btn-3" class="shop__btn">
-								<span class="visually-hidden">Кнопка в магазин</span>
-								<span class="shop__btn-text">В магазин</span>
-							</button>
+							<div class="shop__btn">
+								<a href="#" class="shop__btn-link">
+									<span class="visually-hidden">Кнопка в магазин</span>
+									<span class="shop__btn-text">В магазин</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</article>
